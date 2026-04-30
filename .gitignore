@@ -54,10 +54,9 @@ world_data/
 *.h5
 *.npz
 
-# Minecraft World Files
-*.mca
-*.dat
-*.dat_old
+# Minecraft World Files - tracked with Git LFS
+# *.mca  - tracked by LFS
+# *.dat  - tracked by LFS
 playerdata/
 advancements/
 poi/
@@ -69,14 +68,12 @@ multibiome_output*/
 harsh*/
 generated_worlds/
 Gen_*.json
-region/
 
 # Large Zip Files
 *.zip
 
 # Minecraft Specific
 minecraft_worlds/
-input/minecraft/
 
 # Logs and Temporary Files
 *.log
